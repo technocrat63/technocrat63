@@ -1,0 +1,49 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Publish snake files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin output:output 2>/dev/null || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git checkout --orphan snake-output
+          else
+            git checkout --orphan snake-output
+          fi
+
+          git rm -rf . 2>/dev/null || true
+
+          cp -R dist/. .
+
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m "Update contribution snake"
+          git push origin HEAD:output --force
