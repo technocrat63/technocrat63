@@ -2,10 +2,14 @@
 
 <img src="./profile-banner.png" width="100%" alt="Ashutosh Agnihotri - Developer Profile"/>
 
-<br/>
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/ashutosh-agnihotri-8993bb315">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:agnihotriashutosh108@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 </div>
@@ -75,3 +79,22 @@ Computer Vision
 Autonomous Systems
         ↓
 Real-world AI Applications
+
+📊 GitHub Statistics
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-backend-ebon.vercel.app/api?username=technocrat63&show_icons=true&theme=dark" /> <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-backend-ebon.vercel.app/api?username=technocrat63&show_icons=true" /> <img src="https://github-stats-extended-backend-ebon.vercel.app/api?username=technocrat63&show_icons=true" alt="Ashutosh Agnihotri's GitHub Stats" /> </picture>
+
+<br/><br/>
+
+<picture> <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-backend-ebon.vercel.app/api/top-langs?username=technocrat63&layout=compact&langs_count=6&theme=dark" /> <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-backend-ebon.vercel.app/api/top-langs?username=technocrat63&layout=compact&langs_count=6" /> <img src="https://github-stats-extended-backend-ebon.vercel.app/api/top-langs?username=technocrat63&layout=compact&langs_count=6" alt="Most Used Languages" /> </picture> </div>
+
+🐍 Contribution Activity
+<div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/technocrat63/technocrat63/output/github-snake-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/technocrat63/technocrat63/output/github-snake.svg" /> <img src="https://raw.githubusercontent.com/technocrat63/technocrat63/output/github-snake.svg" alt="GitHub Contribution Snake" /> </picture> </div>
+
+🔗 Connect With Me
+<div align="center"> <a href="https://www.linkedin.com/in/ashutosh-agnihotri-8993bb315"> <img src="https://img.shields.io/badge/LinkedIn-Ashutosh%20Agnihotri-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a>
+
+ 
+
+<a href="mailto:agnihotriashutosh108@gmail.com"> <img src="https://img.shields.io/badge/Email-agnihotriashutosh108%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> </a> </div> <br/> <div align="center">
+⚡ Build • Solve • Create • Impact
+</div> ```
